@@ -7,7 +7,6 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 class GetScoreQueryParams
 {
-    #[Assert\NotNull]
     #[Assert\NotBlank]
     #[Assert\Length(
         min: 2,
