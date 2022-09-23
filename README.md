@@ -72,6 +72,21 @@ Run command to start your server
 symfony server:start
 ```
 
+
+Running application (Docker)
+------------
+For convenience it might be better to run project inside Docker container, we will assume that Docker & docker-compose is already installed, so steps for running application in Docker container:
+
+Building docker images
+```sh
+docker-compose build
+```
+Running container from previously built images 
+```sh
+docker-compose up
+```
+
+
 API documentation
 ------------
 
